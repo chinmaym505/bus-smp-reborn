@@ -1,0 +1,1036 @@
+[00:41:24] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[00:41:24] [Server thread/INFO]: Loading properties
+[00:41:25] [Server thread/WARN]: You have used the Spigot command line EULA agreement flag.
+[00:41:25] [Server thread/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://account.mojang.com/documents/minecraft_eula).
+[00:41:25] [Server thread/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[00:41:25] [Server thread/INFO]: Default game type: SURVIVAL
+[00:41:25] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[00:41:25] [Server thread/INFO]: Debug logging is disabled
+[00:41:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:41:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:41:25] [Server thread/INFO]: Generating keypair
+[00:41:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:41:26] [Server thread/INFO]: Using epoll channel type
+[00:41:29] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[00:41:31] [Server thread/ERROR]: Could not load 'plugins/EssentialsXDiscordLink-2.21.2-dev+10-ff1b8b8.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.IncompatibleClassChangeError: class net.essentialsx.discordlink.EssentialsDiscordLink overrides final method org.bukkit.plugin.java.JavaPlugin.getLogger()Ljava/util/logging/Logger;
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.IncompatibleClassChangeError: class net.essentialsx.discordlink.EssentialsDiscordLink overrides final method org.bukkit.plugin.java.JavaPlugin.getLogger()Ljava/util/logging/Logger;
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:152) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:104) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 6 more
+[00:41:31] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[00:41:31] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[00:41:31] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[00:41:31] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.5
+[00:41:31] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[00:41:31] [Server thread/INFO]: [SynkLibs] Loading SynkLibs v1.8.1
+[00:41:31] [Server thread/INFO]: [CS-CoreLib] Loading CS-CoreLib v1.6.2
+[00:41:31] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.3.3-SNAPSHOT
+[00:41:31] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[00:41:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:41:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:41:32] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:41:32] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:41:33] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[00:41:34] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.3.2
+[00:41:34] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.7
+[00:41:34] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.5.8
+[00:41:35] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:41:35] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading ViaRewind-Legacy-Support v1.5.2
+[00:41:35] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0
+[00:41:38] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.7.1
+[00:41:38] [Server thread/INFO]: [EaglerXServer] Loading EaglercraftXServer v1.0.7
+[00:41:38] [Server thread/INFO]: [EaglerXServer] (Platform: Bukkit)
+[00:41:38] [Server thread/WARN]: [EaglerXServer] Note: Its highly recommended to install EaglerXServer on BungeeCord or Velocity instead, you will have a much better experience
+[00:41:38] [Server thread/WARN]: [EaglerXServer] Note: If you are not using Spigot (or a derivative like Paper) or a version above 1.12.2, things probably won't work right
+[00:41:38] [Server thread/INFO]: [EaglerXServer] Server Name: "EaglercraftXServer"
+[00:41:39] [Server thread/INFO]: [EaglerXRewind-1.5] Loading EaglercraftXRewind-1-5 v1.0.2
+[00:41:39] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[00:41:39] [Server thread/INFO]: [dynmap] Loading dynmap v3.6-899
+[00:41:39] [Server thread/INFO]: [dynmap] version=git-Paper-1620 (MC: 1.12.2)
+[00:41:39] [Server thread/INFO]: [dynmap] Mod Support API available
+[00:41:39] [Server thread/INFO]: [ZNPCsPlus] Loading ZNPCsPlus v2.0.0
+[00:41:45] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.1
+[00:41:45] [Server thread/INFO]: [EaglerWeb] Loading EaglerWeb v1.0.0
+[00:41:45] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v2.2.4
+[00:41:45] [Server thread/INFO]: [EaglerMOTD] Loading EaglerMOTD-Reborn v1.0.0
+[00:41:45] [Server thread/INFO]: [Magic] Loading Magic v10.9.8-2d84e24
+[00:41:46] [Server thread/INFO]: [Magic] Loading legacy compatibility layer for server version 1.12
+[00:41:46] [Server thread/WARN]: [Magic] [33m Player.openBook method not found, BookAction can't show virtual books[0m
+[00:41:46] [Server thread/WARN]: [Magic] [33m Skull profile method not available, this is normal if you're on a legacy Minecraft version[0m
+[00:41:46] [Server thread/WARN]: [Magic] [33m EntityTransformEvent not found, can't prevent mobs naturally transforming[0m
+[00:41:46] [Server thread/WARN]: [Magic] [33m TimeSkipEvent not found, can't synchronize time between worlds[0m
+[00:41:46] [Server thread/WARN]: [Magic] [33m Entity.persistentInvisibility field not found, invisibility may not reliably restore[0m
+[00:41:46] [Server thread/WARN]: [Magic] [33m Use an updated version of Spigot for better knowledge book recipes[0m
+[00:41:46] [Server thread/WARN]: [Magic] [33m Could not bind to chunk ticket API, chunk locking will not work[0m
+[00:41:46] [Server thread/WARN]: [Magic] [33m No phantoms on this version[0m
+[00:41:46] [Server thread/WARN]: [Magic] [33m Could not bind to persist entity tag, can't make mobs persistent[0m
+[00:41:46] [Server thread/WARN]: [Magic] [33m Could not bind to selectEntities method, command target selectors may not work[0m
+[00:41:46] [Server thread/WARN]: [Magic] [33m Couldn't find recipe removal method, this is odd since we did find NamespacedKey[0m
+[00:41:46] [Server thread/WARN]: [Magic] [33m Couldn't find recipe discover method, this is odd since we did find NamespacedKey[0m
+[00:41:46] [Server thread/WARN]: [Magic] [33m Could not bind to auto block state methods[0m
+[00:41:46] [Server thread/INFO]: [Magic] Persistent metadata is not available, will rely on custom names to restore persistent magic mobs
+[00:41:46] [Server thread/INFO]: [Magic] Found WorldGuard <7
+[00:41:46] [Server thread/INFO]: [Magic] Pre-check for WorldGuard custom flag registration
+[00:41:46] [Server thread/INFO]: [Magic] Registered custom WorldGuard flags: allowed-spells, always-allowed-spells, blocked-spells, always-allowed-spell-categories, allowed-spell-categories, blocked-spell-categories, allowed-wands, always-allowed-wands, blocked-wands, spell-overrides, destructible, reflective, tags, portal-spell, portal-warp
+[00:41:46] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.2-dev+10-ff1b8b8
+[00:41:46] [Server thread/INFO]: [TAB] Loading TAB v5.2.2
+[00:41:46] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.2-dev+10-ff1b8b8
+[00:41:46] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.21.2-dev+10-ff1b8b8
+[00:41:46] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
+[00:41:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:41:46] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[00:41:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.8
+[00:41:47] [Server thread/INFO]:         __    
+[00:41:47] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.8
+[00:41:47] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[00:41:47] [Server thread/INFO]: 
+[00:41:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:41:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:41:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:41:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3927ms)
+[00:41:50] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[00:41:50] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.1
+[00:41:52] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.12.2[32;1m.[0;39m
+[00:41:53] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[00:41:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.1]
+[00:41:53] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
+[00:41:53] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
+[00:41:53] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
+[00:41:53] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[00:41:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[00:41:54] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:41:54] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[00:41:54] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[00:41:54] [Server thread/INFO]: [Magic] Enabling Magic v10.9.8-2d84e24
+[00:41:54] [Server thread/INFO]: [Magic] EffectLib initialized
+[00:41:54] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/config.yml
+[00:41:54] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/config.yml
+[00:41:54] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/materials.yml
+[00:41:55] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/spells.yml
+[00:41:55] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/wands.yml
+[00:41:56] [Server thread/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.meta.ItemMeta org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(java.util.Map) throws java.lang.Throwable' of class org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta for deserialization
+java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(CraftMetaItem.java:157) ~[patched_1.12.2.jar:git-Paper-1620]
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:79) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:119) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:197) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:35) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[patched_1.12.2.jar:git-Paper-1620]
+	at com.elmakers.mine.bukkit.utility.platform.base.CompatibilityUtilsBase.loadConfiguration(CompatibilityUtilsBase.java:275) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadExampleConfiguration(ConfigurationLoadTask.java:165) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadExampleConfiguration(ConfigurationLoadTask.java:115) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadConfigFile(ConfigurationLoadTask.java:526) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.run(ConfigurationLoadTask.java:973) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.runNow(ConfigurationLoadTask.java:1019) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2615) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2592) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2588) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2580) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.load(MagicController.java:2654) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.initialize(MagicController.java:1576) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicPlugin.initialize(MagicPlugin.java:190) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicPlugin.onEnable(MagicPlugin.java:184) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:223) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[00:41:56] [Server thread/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.meta.ItemMeta org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(java.util.Map) throws java.lang.Throwable' of class org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta for deserialization
+java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(CraftMetaItem.java:157) ~[patched_1.12.2.jar:git-Paper-1620]
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:79) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:119) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:197) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:35) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[patched_1.12.2.jar:git-Paper-1620]
+	at com.elmakers.mine.bukkit.utility.platform.base.CompatibilityUtilsBase.loadConfiguration(CompatibilityUtilsBase.java:275) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadExampleConfiguration(ConfigurationLoadTask.java:165) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadExampleConfiguration(ConfigurationLoadTask.java:115) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadConfigFile(ConfigurationLoadTask.java:526) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.run(ConfigurationLoadTask.java:973) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.runNow(ConfigurationLoadTask.java:1019) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2615) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2592) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2588) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2580) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.load(MagicController.java:2654) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.initialize(MagicController.java:1576) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicPlugin.initialize(MagicPlugin.java:190) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicPlugin.onEnable(MagicPlugin.java:184) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:223) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[00:41:56] [Server thread/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.meta.ItemMeta org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(java.util.Map) throws java.lang.Throwable' of class org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta for deserialization
+java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(CraftMetaItem.java:157) ~[patched_1.12.2.jar:git-Paper-1620]
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:79) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:119) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:197) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:35) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[patched_1.12.2.jar:git-Paper-1620]
+	at com.elmakers.mine.bukkit.utility.platform.base.CompatibilityUtilsBase.loadConfiguration(CompatibilityUtilsBase.java:275) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadExampleConfiguration(ConfigurationLoadTask.java:165) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadExampleConfiguration(ConfigurationLoadTask.java:115) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadConfigFile(ConfigurationLoadTask.java:526) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.run(ConfigurationLoadTask.java:973) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.runNow(ConfigurationLoadTask.java:1019) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2615) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2592) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2588) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2580) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.load(MagicController.java:2654) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.initialize(MagicController.java:1576) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicPlugin.initialize(MagicPlugin.java:190) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicPlugin.onEnable(MagicPlugin.java:184) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:223) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[00:41:56] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/items.yml
+[00:41:56] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/mobs.yml
+[00:41:56] [Server thread/INFO]: [Magic] Loaded 0 attributes
+[00:41:56] [Server thread/WARN]: [Magic] [33m Unknown entity type: fox in friendly_entity_types[0m
+[00:41:56] [Server thread/WARN]: [Magic] [33m Unknown entity type: cat in friendly_entity_types[0m
+[00:41:56] [Server thread/WARN]: [Magic] [33m Unknown entity type: strider in friendly_entity_types[0m
+[00:41:57] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: barrel
+[00:41:57] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: smoker
+[00:41:57] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: blast_furnace
+[00:41:57] [Server thread/INFO]: [Magic] Wand crafting is enabled
+[00:41:57] [Server thread/INFO]: [Magic] Skin-based spell icons disabled
+[00:41:57] [Server thread/INFO]: [Magic] Registered attributes: [target_fall_distance, arrow_knockback, regeneration, arrow_infinite, bowpower, degrees, seconds, target_pitch, dig_speed, humidity, pitch, jump, health_max, protection_fall, target_luck, target_light, blindness, absorption, target_armor, damage_undead, slow_digging, silk_touch, fire_resistance, unluck, invisibility, target_health_max, moon, air_max, slow, light, mana_max, water_worker, bowpull, damage, weeks, mending, epoch, protection_explosions, air, fast_digging, arrow_fire, lure, temperature, frost_walker, movement_speed_bps, protection_environmental, health_boost, levitation, increase_damage, poison, health, target_temperature, binding_curse, yaw, protection_projectile, mana, glowing, target_health, target_humidity, damage_arthropods, days, luck, thorns, target_hunger, location_x, location_y, target_mana, attack_damage, knockback, fire_aspect, knockback_resistance, saturation, location_z, target_air, oxygen, night_vision, level, minutes, durability, water_breathing, fall_distance, hunger, difficulty, armor, arrow_damage, fulltime, confusion, damage_dealt, harm, target_yaw, speed, damage_resistance, weakness, heal, loot_bonus_mobs, target_mana_max, protection_fire, hours, damage_all, velocity, sweeping_edge, target_air_max, movement_speed, play_time, depth_strider, xp, target_location_x, pi, target_location_y, vanishing_curse, target_knockback_resistance, target_location_z, time, wither, loot_bonus_blocks]
+[00:41:57] [Server thread/INFO]: [Magic] Loaded 182 icons
+[00:41:58] [Server thread/INFO]: [Magic] Loaded 12 effect lists
+[00:41:58] [Server thread/INFO]: [Magic] Loaded 1403 items
+[00:41:58] [Server thread/INFO]: [Magic] Loaded 198 wands
+[00:41:58] [Server thread/INFO]: [Magic] Loaded 2 kits
+[00:41:58] [Server thread/INFO]: [Magic] Loaded 10 classes
+[00:41:58] [Server thread/INFO]: [Magic] Loaded 5 classes
+[00:41:58] [Server thread/WARN]: [Magic] [33m Invalid villager_profession: FLETCHER[0m
+[00:41:58] [Server thread/INFO]: [Magic] Loaded 49 mob templates
+[00:41:58] [Server thread/INFO]: [Magic] Loaded 8 automata templates
+[00:41:58] [Server thread/INFO]: [Magic] Loaded 0 customized worlds
+[00:41:58] [Server thread/INFO]: [Magic] Activated BStats
+[00:41:58] [Server thread/INFO]: [Magic] MobArena not found
+[00:41:58] [Server thread/INFO]: [Magic] LibsDisguises not found, magic mob disguises will not be available
+[00:41:58] [Server thread/INFO]: [Magic] ModelEngine integration disabled
+[00:41:58] [Server thread/INFO]: Magic checking resource pack for updates: http://rp.elmakers.com/Magic-RP-7.zip
+[00:41:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:41:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:41:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:41:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:41:58] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[00:41:58] [Server thread/INFO]: Preparing level "world"
+[00:41:58] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:41:58] [Server thread/INFO]: Mob Spawn Range: 4
+[00:41:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:41:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:41:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:41:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:41:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:41:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:41:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:41:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:41:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:41:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:41:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:41:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:41:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:41:58] [Server thread/INFO]: Random Lighting Updates: false
+[00:41:58] [Server thread/INFO]: Structure Info Saving: true
+[00:41:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:41:58] [Server thread/INFO]: Max TNT Explosions: 100
+[00:41:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:41:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:41:58] [Server thread/INFO]: View Distance: 6
+[00:41:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:41:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:41:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:41:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:41:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:41:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:41:59] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:41:59] [Server thread/INFO]: Mob Spawn Range: 4
+[00:41:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:41:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:41:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:41:59] [Server thread/INFO]: Random Lighting Updates: false
+[00:41:59] [Server thread/INFO]: Structure Info Saving: true
+[00:41:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:41:59] [Server thread/INFO]: Max TNT Explosions: 100
+[00:41:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:41:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:41:59] [Server thread/INFO]: View Distance: 6
+[00:41:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:41:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:41:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:41:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:41:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:41:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:41:59] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:41:59] [Server thread/INFO]: Mob Spawn Range: 4
+[00:41:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:41:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:41:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:41:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:41:59] [Server thread/INFO]: Random Lighting Updates: false
+[00:41:59] [Server thread/INFO]: Structure Info Saving: true
+[00:41:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:41:59] [Server thread/INFO]: Max TNT Explosions: 100
+[00:41:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:41:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:41:59] [Server thread/INFO]: View Distance: 6
+[00:41:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:41:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:41:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:41:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:41:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:41:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:41:59] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8090510260380333756)
+[00:42:00] [Server thread/INFO]: Preparing spawn area: 0%
+[00:42:01] [Server thread/INFO]: Preparing spawn area: 9%
+[00:42:02] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8090510260380333756)
+[00:42:03] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8090510260380333756)
+[00:42:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[00:42:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:42:03] [Server thread/WARN]: [WorldEdit] 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and biome-related functions.
+**
+** Please see http://wiki.sk89q.com/wiki/WorldEdit/Bukkit_adapters
+**********************************************
+
+[00:42:03] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[00:42:04] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:42:04] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[00:42:04] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[00:42:04] [Server thread/INFO]: [ClearLag] Loading modules...
+[00:42:04] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[00:42:04] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[00:42:04] [Thread-8/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
+[00:42:04] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[00:42:04] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.5
+[00:42:04] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[00:42:04] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[00:42:04] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[00:42:04] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[00:42:04] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[00:42:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[00:42:04] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[00:42:04] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[00:42:04] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[00:42:04] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[00:42:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[00:42:04] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[00:42:04] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[00:42:04] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[00:42:04] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[00:42:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[00:42:04] [Server thread/INFO]: [WorldGuard] Loading region data...
+[00:42:05] [Thread-8/INFO]: [ClearLag] No updates found!
+[00:42:05] [Server thread/INFO]: [SynkLibs] Enabling SynkLibs v1.8.1
+[00:42:06] [Server thread/INFO]: [SynkLibs] »  SynkLibs is up to date!
+[00:42:06] [Server thread/INFO]: [CS-CoreLib] Enabling CS-CoreLib v1.6.2
+[00:42:07] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[00:42:07] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[00:42:07] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[00:42:07] [Server thread/INFO]: [EaglerXServer] Enabling EaglercraftXServer v1.0.7
+[00:42:07] [Server thread/INFO]: [EaglerXServer] Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[00:42:07] [Netty Epoll Server IO #0/INFO]: [EaglerXServer] Listener "default" injected into channel [id: 0xfb34b4bd, L:/0.0.0.0:25565] successfully (Generic Netty method)
+[00:42:07] [Server thread/INFO]: [EaglerXServer] Connected to skin cache database successfully!
+[00:42:07] [Server thread/ERROR]: [EaglerXServer] Plugin EaglercraftXServer v1.0.7 has failed to register events for class net.skinsrestorer.bukkit.listener.ForceAliveListener because org/bukkit/event/server/ServerLoadEvent does not exist.
+[00:42:07] [Server thread/INFO]: [EaglerXServer] Listening for SkinsRestorer skin apply event on vanilla players
+[00:42:07] [Server thread/INFO]: [EaglerXRewind-1.5] Enabling EaglercraftXRewind-1-5 v1.0.2
+[00:42:07] [Server thread/INFO]: [EaglerXRewind-1.5] EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
+[00:42:07] [Server thread/INFO]: [dynmap] Enabling dynmap v3.6-899
+[00:42:07] [Server thread/INFO]: [dynmap] Using LuckPerms 5.5.8 for access control
+[00:42:07] [Netty Epoll Server IO #3/INFO]: [EaglerXServer] You are running the latest version of EaglerXServer
+[00:42:08] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[00:42:13] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[00:42:13] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[00:42:13] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[00:42:13] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[00:42:13] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[00:42:14] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[00:42:14] [Server thread/INFO]: [dynmap] version 3.6-899 is enabled - core version 3.6-899
+[00:42:14] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[00:42:14] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[00:42:14] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[00:42:14] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[00:42:14] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[00:42:14] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[00:42:14] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[00:42:14] [Server thread/INFO]: [dynmap] Enabled
+[00:42:14] [Server thread/INFO]: [ZNPCsPlus] Enabling ZNPCsPlus v2.0.0
+[00:42:14] [Server thread/INFO]:   ___       __   __  __
+[00:42:14] [Server thread/INFO]:    _/ |\ | |__) |   (__` __|__   ZNPCsPlus v2.0.0
+[00:42:14] [Server thread/INFO]:   /__ | \| |    |__ .__)   |     Maintained with ❤  by Pyr#6969
+[00:42:14] [Server thread/INFO]: 
+[00:42:14] [Server thread/INFO]:  * Initializing libraries...
+[00:42:14] [Server thread/INFO]:  * Initializing components...
+[00:42:14] [Server thread/INFO]:  * Registering components...
+[00:42:14] [Server thread/INFO]:  * Starting tasks...
+[00:42:14] [Server thread/INFO]:  * Loading data...
+[00:42:14] [Server thread/INFO]:  * Loading complete! (774ms)
+[00:42:14] [Server thread/INFO]: 
+[00:42:14] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[00:42:15] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsChat to the same version.
+[00:42:15] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsSpawn to the same version.
+[00:42:15] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsDiscord to the same version.
+[00:42:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:42:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:42:15] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[00:42:15] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[00:42:15] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[00:42:15] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[00:42:15] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[00:42:15] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[00:42:15] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[00:42:15] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[00:42:15] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[00:42:15] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[00:42:15] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[00:42:15] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[00:42:15] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[00:42:15] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[00:42:15] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[00:42:15] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[00:42:15] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[00:42:15] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[00:42:15] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[00:42:15] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[00:42:15] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[00:42:15] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[00:42:16] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[00:42:16] [Server thread/INFO]: [Essentials] Using locale en_US
+[00:42:16] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:42:16] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:42:16] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[00:42:16] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[00:42:16] [Server thread/INFO]: [EaglerWeb] Enabling EaglerWeb v1.0.0
+[00:42:16] [Server thread/INFO]: [EaglerWeb] Loading config files...
+[00:42:16] [Server thread/INFO]: [EaglerWeb] Indexing pages, please wait...
+[00:42:16] [Server thread/ERROR]: [EaglerWeb] Failed to index pages!
+java.io.IOException: Could not list directory: /home/chinmaym3600/Bus-SMP/bus-smp-reborn/plugins/EaglerWeb/web
+	at net.lax1dude.eaglercraft.backend.eaglerweb.base.EaglerWebHandler.indexDir(EaglerWebHandler.java:134) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.eaglerweb.base.EaglerWebHandler.index(EaglerWebHandler.java:124) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.eaglerweb.base.EaglerWebHandler.buildContext(EaglerWebHandler.java:108) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.eaglerweb.base.EaglerWebHandler.build(EaglerWebHandler.java:92) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.eaglerweb.base.EaglerWeb.handleRefreshIndex(EaglerWeb.java:132) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.eaglerweb.base.EaglerWeb.onEnable(EaglerWeb.java:59) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.eaglerweb.bukkit.PlatformPluginBukkit.onEnable(PlatformPluginBukkit.java:81) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[00:42:16] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v2.2.4
+[00:42:16] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
+[00:42:16] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
+[00:42:16] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_12_R1
+[00:42:16] [Server thread/INFO]: [AuctionHouse] Using en_us locale
+[00:42:16] [Server thread/INFO]: [AuctionHouse] Loaded 6 listings
+[00:42:16] [Server thread/INFO]: [EaglerMOTD] Enabling EaglerMOTD-Reborn v1.0.0
+[00:42:16] [Server thread/INFO]: [EaglerMOTD] Loaded 1 messages for default
+[00:42:16] [Server thread/INFO]: [EaglerMOTD] Loaded 6 query types
+[00:42:16] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2-dev+10-ff1b8b8
+[00:42:16] [Server thread/WARN]: [EssentialsChat] Version mismatch! Please update all Essentials jars to the same version.
+[00:42:16] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[00:42:16] [Server thread/INFO]: [TAB] Enabling TAB v5.2.2
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Missing configuration section "scoreboard.use-numbers" of type Boolean, using default value true.
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Missing configuration section "scoreboard.static-number" of type Integer, using default value 0.
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard: Missing configuration section "scoreboard.delay-on-join-milliseconds" of type Integer, using default value 0.
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard-teams: Configuration section "scoreboard-teams" has unknown key "prefix". Valid keys: [enabled, enable-collision, invisible-nametags, sorting-types, case-sensitive-sorting, can-see-friendly-invisibles, disable-condition]
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard-teams: Configuration section "scoreboard-teams" has unknown key "suffix". Valid keys: [enabled, enable-collision, invisible-nametags, sorting-types, case-sensitive-sorting, can-see-friendly-invisibles, disable-condition]
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard-teams: Configuration section "scoreboard-teams" has unknown key "custom-name". Valid keys: [enabled, enable-collision, invisible-nametags, sorting-types, case-sensitive-sorting, can-see-friendly-invisibles, disable-condition]
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .bus_smp_title: Animation "bus_smp_title" has refresh interval of 4, which is not divisible by 50! Using 50.
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .server_ip_label: Animation "server_ip_label" has refresh interval of 4, which is not divisible by 50! Using 50.
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .server_ip_value: Animation "server_ip_value" has refresh interval of 4, which is not divisible by 50! Using 50.
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .discord_label: Animation "discord_label" has refresh interval of 4, which is not divisible by 50! Using 50.
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .discord_value: Animation "discord_value" has refresh interval of 4, which is not divisible by 50! Using 50.
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .enjoy_line: Animation "enjoy_line" has refresh interval of 4, which is not divisible by 50! Using 50.
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .player_name: Animation "player_name" has refresh interval of 4, which is not divisible by 50! Using 50.
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .balance: Animation "balance" has refresh interval of 4, which is not divisible by 50! Using 50.
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] [animations.yml] .ping: Animation "ping" has refresh interval of 4, which is not divisible by 50! Using 50.
+[00:42:17] [Server thread/INFO]: [TAB] [WARN] Found a total of 15 issues.
+[00:42:17] [Server thread/INFO]: [TAB] Enabled in 399ms
+[00:42:17] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2-dev+10-ff1b8b8
+[00:42:17] [Server thread/WARN]: [EssentialsSpawn] Version mismatch! Please update all Essentials jars to the same version.
+[00:42:17] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[00:42:17] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.21.2-dev+10-ff1b8b8
+[00:42:17] [Server thread/WARN]: [EssentialsDiscord] Version mismatch! Please update all Essentials jars to the same version.
+[00:42:17] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
+[00:42:17] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
+[00:42:20] [Server thread/INFO]: [EssentialsDiscord] Successfully logged in as EssX bot#7695
+[00:42:20] [Server thread/INFO]: [EssentialsDiscord] Discord console logging has been disabled due to an invalid channel definition! If you intend to disable it, set the channel ID to "none"; otherwise check that your channel ID is correct.
+[00:42:20] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[00:42:21] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[00:42:21] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[00:42:21] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[00:42:22] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[00:42:22] [Server thread/INFO]: Done (23.818s)! For help, type "help" or "?"
+[00:42:22] [Server thread/INFO]: Timings Reset
+[00:42:22] [Craft Scheduler Thread - 11/INFO]: [Essentials] Fetching version information...
+[00:42:22] [Craft Scheduler Thread - 13/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[00:42:22] [Craft Scheduler Thread - 13/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[00:42:22] [Craft Scheduler Thread - 13/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[00:42:22] [Craft Scheduler Thread - 13/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[00:42:22] [Server thread/INFO]: [CS-CoreLib2] [CS-CoreLib2 - Protection] Loading Protection Modules...
+[00:42:22] [Server thread/INFO]: [CS-CoreLib2] [CS-CoreLib2 - Protection] This may happen more than once.
+[00:42:22] [Craft Scheduler Thread - 16/INFO]: [Vault] Checking for Updates ... 
+[00:42:22] [Server thread/WARN]: [CS-CoreLib] Task #1047 for CS-CoreLib v1.6.2 generated an exception
+java.lang.NoClassDefFoundError: com/sk89q/worldguard/WorldGuard
+	at me.mrCookieSlime.CSCoreLibPlugin.cscorelib2.protection.modules.WorldGuardProtectionModule.load(WorldGuardProtectionModule.java:31) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.cscorelib2.protection.ProtectionManager.registerModule(ProtectionManager.java:162) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.cscorelib2.protection.ProtectionManager.<init>(ProtectionManager.java:57) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.protection.ProtectionManager.<init>(ProtectionManager.java:19) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.CSCoreLib.lambda$0(CSCoreLib.java:114) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:840) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.sk89q.worldguard.WorldGuard
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:156) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:104) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 12 more
+[00:42:22] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[00:42:22] [Craft Scheduler Thread - 10/INFO]: [EaglerXServer] Reloaded certificate: /home/chinmaym3600/Bus-SMP/bus-smp-reborn/plugins/EaglercraftXServer/eagcert/$dl.b761e73bfcd2f0ca87bc93a516c564bc5fae7c47.cert
+[00:42:22] [Craft Scheduler Thread - 10/WARN]: [EaglerXServer] Update certificate was loaded: $dl.b761e73bfcd2f0ca87bc93a516c564bc5fae7c47.cert
+[00:42:22] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[00:42:22] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.15).
+[00:42:22] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[00:42:22] [Craft Scheduler Thread - 16/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.6
+[00:42:22] [Craft Scheduler Thread - 16/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[00:42:22] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.5.6-b49)!
+[00:42:22] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Essentials for Vault's Economy API
+[00:42:22] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.7.1[0;39m
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mf77fbd4[0;39m
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[00:42:22] [Craft Scheduler Thread - 5/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[00:42:22] [Server thread/INFO]: [Magic] Vault found, 'currency' cost types available
+[00:42:22] [Server thread/INFO]: [Magic] Registered currencies: item,mana,xp,health,currency,sp,levels,hunger
+[00:42:23] [Thread-24/INFO]: [CrackShot] Gun-mode activated. Boop![CS-CoreLib - Updater] CS-CoreLib is up to date!
+[00:42:23] [Server thread/WARN]: [Magic] [33m Invalid item key: warped_sign{CustomModelData:18001}[0m
+[00:42:23] [Server thread/WARN]: [Magic] [33m Invalid item key: warped_sign{CustomModelData:18001}[0m
+[00:42:23] [Server thread/INFO]: [Magic] Couldn't load spell icon 'warped_sign{CustomModelData:18001}' for spell: gps
+[00:42:24] [Server thread/INFO]: [Magic] Loaded 554 spells
+[00:42:24] [Server thread/INFO]: [Magic] Loaded 12 progression paths
+[00:42:24] [Server thread/WARN]: [Magic] [33m Unknown output for recipe magictorch: magictorch[0m
+[00:42:24] [Server thread/WARN]: [Magic] [33m Failed to create crafting recipe: magictorch[0m
+[00:42:24] [Server thread/INFO]: [Magic] Loaded 15 crafting recipes
+[00:42:24] [Server thread/INFO]: [Magic] [skull{display:{Name:"{\"text\":\"Copper Chunk\"}"},SkullOwner:{Id:[I;-1036162939,-1851833705,-1803264362,-2044992477],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc2NDA2MGI4MThlNGE2NzA2NzEzYzg1MWRmNTJhZmZiNzAwODM3MDE5Y2JkNzcxMjZlYTE1NGU3MGNkNjcxYyJ9fX0="}]}}}] Custom NBT tags on items are no longer supported. Please change to the {1234} syntax for custom model data.
+[00:42:24] [Server thread/INFO]: [Magic] LogBlock not found
+[00:42:24] [Server thread/INFO]: [Magic] Integrating with Essentials for vanish detection
+[00:42:24] [Server thread/INFO]: [Magic] Integrating with Essentials for Recall warps
+[00:42:24] [Server thread/INFO]: [Magic] Essentials found, hooked up custom item handler
+[00:42:24] [Server thread/INFO]: [Magic] Factions not found
+[00:42:24] [Server thread/INFO]: [Magic] WorldGuard found, will respect build permissions for construction spells
+[00:42:24] [Server thread/INFO]: [Magic] Towny not found, region protection and pvp checks will not be used.
+[00:42:24] [Server thread/INFO]: [Magic] Lockette nor LockettePro found, will not integrate.
+[00:42:24] [Server thread/INFO]: [Magic] GriefPrevention not found, claim protection will not be used.
+[00:42:24] [Server thread/INFO]: [Magic] NoCheatPlus not found, will not integrate.
+[00:42:24] [Server thread/INFO]: [Magic] dynmap found, integrating.
+[00:42:24] [Server thread/INFO]: [Magic] Citizens not found, Magic trait unavailable.
+[00:42:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: magic [10.9.8-2d84e24]
+[00:42:24] [Server thread/INFO]: [Magic] PlaceholderAPI integration enabled. Available placeholders:
+[00:42:24] [Server thread/INFO]: [Magic] magic_path, magic_class, magic_wand, magic_spell, magic_mana, magic_mana_max, magic_sp, magic_spell_count
+[00:42:24] [Server thread/INFO]: [Magic] All magic attributes also available with a magic_ prefix
+[00:42:24] [Server thread/INFO]: [Magic] Add to messages/placeholders to add custom placeholders
+[00:42:24] [Server thread/INFO]: [Magic] LightAPI not found, Light action will not work
+[00:42:24] [Server thread/INFO]: [Magic] Geyser integration disabled.
+[00:42:24] [Server thread/INFO]: [Magic] Loaded 0 arenas
+[00:42:24] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: fireproof_drowned[0m
+[00:42:24] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: trident_drowned[0m
+[00:42:24] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: spinny_fox[0m
+[00:42:24] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: scaredy[0m
+[00:42:24] [Server thread/INFO]: [Magic] Finished loading configuration
+[00:42:24] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:42:24] [Server thread/INFO]: [Magic] Finished loading data.
+[00:42:24] [Server thread/INFO]: Resource pack has not changed, using hash XXwMvDZbIpjdKdbSWZPDNBLHxIk= (1614208353000 <= 1614208353000)
+[00:42:24] [Server thread/INFO]: [AuctionHouse] Found PlaceholderAPI plugin
+[00:42:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: auctionhouse [2.2.4]
+[00:42:24] [Server thread/INFO]: [AuctionHouse] Registered PlaceholderAPI placeholders
+[00:42:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[00:42:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[00:42:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[00:42:24] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[00:42:24] [Craft Scheduler Thread - 9/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:42:24] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.0, you're on: 5.3.3-SNAPSHOT
+[01:07:38] [User Authenticator #1/INFO]: UUID of player myz_ALT is 041b1804-8a6d-36f1-b0f7-df70924e6591
+[01:07:38] [Server thread/INFO]: myz_ALT[/127.0.0.1:36594] logged in with entity id 73 at ([world]580.5, 86.0, 2908.5)
+[01:07:39] [Server thread/WARN]: [Essentials] Unknown item name: crackshot_weapon:ak-47.
+[01:07:39] [Server thread/WARN]: [EssentialsSpawn] That kit is improperly defined. Contact an administrator.
+[01:07:54] [Server thread/INFO]: [AuthMe] myz_ALT registered 127.0.0.1
+[01:07:54] [Craft Scheduler Thread - 40/INFO]: [AuthMe] myz_ALT logged in 127.0.0.1
+[01:08:02] [Server thread/INFO]: myz_ALT issued server command: /version
+[01:08:05] [Thread-30/WARN]: java.lang.NumberFormatException: For input string: "<!-- HTML for static distribution bundle build -->"
+[01:08:05] [Thread-30/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[01:08:05] [Thread-30/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[01:08:05] [Thread-30/WARN]: 	at java.base/java.lang.Integer.valueOf(Integer.java:973)
+[01:08:05] [Thread-30/WARN]: 	at java.base/java.lang.Integer.decode(Integer.java:1458)
+[01:08:05] [Thread-30/WARN]: 	at org.bukkit.command.defaults.VersionCommand.getFromJenkins(VersionCommand.java:295)
+[01:08:05] [Thread-30/WARN]: 	at org.bukkit.command.defaults.VersionCommand.getDistance(VersionCommand.java:266)
+[01:08:05] [Thread-30/WARN]: 	at org.bukkit.command.defaults.VersionCommand.obtainVersion(VersionCommand.java:214)
+[01:08:05] [Thread-30/WARN]: 	at org.bukkit.command.defaults.VersionCommand.access$000(VersionCommand.java:37)
+[01:08:05] [Thread-30/WARN]: 	at org.bukkit.command.defaults.VersionCommand$1.run(VersionCommand.java:199)
+[01:08:05] [Thread-30/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[01:08:41] [Server thread/INFO]: myz_ALT lost connection: Disconnected
+[01:08:41] [Server thread/INFO]: myz_ALT left the game
+[01:08:59] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[01:11:38] [User Authenticator #2/INFO]: UUID of player myz_ALT is 041b1804-8a6d-36f1-b0f7-df70924e6591
+[01:11:38] [Server thread/INFO]: myz_ALT[/127.0.0.1:39774] logged in with entity id 264 at ([world]589.6999999880791, 70.0, 2956.0966135966382)
+[01:11:47] [Craft Scheduler Thread - 49/INFO]: [AuthMe] myz_ALT logged in 127.0.0.1
+[01:14:38] [Server thread/INFO]: myz_ALT has made the advancement [Stone Age]
+[01:15:35] [Server thread/INFO]: myz_ALT has made the advancement [Getting an Upgrade]
+[01:18:34] [Server thread/INFO]: myz_ALT issued server command: /rtp
+[01:22:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc who are you
+[01:22:46] [Async Chat Thread - #0/INFO]: myz_ALT: idk
+[01:22:55] [Async Chat Thread - #0/INFO]: myz_ALT: me player
+[01:23:16] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc howd you find this server
+[01:23:24] [Async Chat Thread - #0/INFO]: myz_ALT: eagler server list
+[01:23:36] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc LETSGOO IT WORKEDD
+[01:23:44] [Async Chat Thread - #0/INFO]: myz_ALT: ??
+[01:23:44] [User Authenticator #3/INFO]: UUID of player ChinmayM_3600 is d688be88-8641-3dbc-b5d9-b7c5d3992d11
+[01:23:44] [Server thread/INFO]: ChinmayM_3600[/127.0.0.1:52720] logged in with entity id 3267 at ([world]579.5, 69.0, 2899.5)
+[01:23:51] [Async Chat Thread - #0/INFO]: myz_ALT: oh ashi
+[01:23:51] [Craft Scheduler Thread - 60/INFO]: [AuthMe] ChinmayM_3600 logged in 127.0.0.1
+[01:23:54] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: hi
+[01:23:54] [Async Chat Thread - #0/INFO]: myz_ALT: hi
+[01:24:05] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: hows the server
+[01:24:10] [Async Chat Thread - #0/INFO]: myz_ALT: kool
+[01:24:12] [Server thread/INFO]: ChinmayM_3600 issued server command: /gamemode c
+[01:24:17] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: k
+[01:24:22] [Async Chat Thread - #0/INFO]: myz_ALT: this.
+[01:24:25] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: ?
+[01:24:27] [Async Chat Thread - #0/INFO]: myz_ALT: is a home
+[01:24:38] [Server thread/INFO]: ChinmayM_3600 issued server command: /tp myz_ALT
+[01:24:50] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: oh
+[01:25:03] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: prob one of our other players
+[01:25:09] [Async Chat Thread - #0/INFO]: myz_ALT: ?
+[01:25:19] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: nvm
+[01:25:26] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: could you join our discord?
+[01:25:35] [Server thread/INFO]: myz_ALT issued server command: /discord
+[01:25:35] [Server thread/INFO]: [Essentials] myz_ALT was denied access to command.
+[01:25:36] [Async Chat Thread - #0/INFO]: myz_ALT: sure
+[01:25:42] [Async Chat Thread - #0/INFO]: myz_ALT: send me the link
+[01:25:54] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: do /discord
+[01:25:57] [Server thread/INFO]: ChinmayM_3600 issued server command: /discord
+[01:25:58] [Server thread/INFO]: myz_ALT issued server command: /diiscord
+[01:26:02] [Async Chat Thread - #0/INFO]: myz_ALT: no access
+[01:26:13] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: hmm will fix
+[01:26:40] [Server thread/INFO]: myz_ALT has made the advancement [Acquire Hardware]
+[01:26:41] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: https://discord.gg/JVkchKcR
+[01:26:48] [Async Chat Thread - #0/INFO]: myz_ALT: aria math is peak
+[01:26:55] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: also gere
+[01:26:59] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: *here
+[01:27:00] [Async Chat Thread - #0/INFO]: myz_ALT: joined
+[01:27:12] [Async Chat Thread - #0/INFO]: myz_ALT: dam
+[01:27:15] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: yup
+[01:27:18] [Async Chat Thread - #0/INFO]: [Owner] ChinmayM_3600: guns
+[01:27:22] [Server thread/INFO]: ChinmayM_3600 issued server command: /spawn
+[01:27:26] [Server thread/INFO]: ChinmayM_3600 issued server command: /vanish
+[01:27:39] [Server thread/INFO]: ChinmayM_3600 issued server command: /tp myz_ALT
+[01:27:55] [Server thread/INFO]: ChinmayM_3600 issued server command: /gamemode spectator
+[01:27:58] [Server thread/INFO]: ChinmayM_3600 issued server command: /tp myz_ALT
+[01:28:08] [Async Chat Thread - #0/INFO]: myz_ALT: hold up
+[01:28:10] [Server thread/INFO]: myz_ALT lost connection: Disconnected
+[01:28:10] [Server thread/INFO]: myz_ALT left the game
+[01:30:05] [User Authenticator #4/INFO]: UUID of player myz_ALT is 041b1804-8a6d-36f1-b0f7-df70924e6591
+[01:30:05] [Server thread/INFO]: myz_ALT[/127.0.0.1:46268] logged in with entity id 4035 at ([world]371.41281404631223, 54.0, 2921.269575425967)
+[01:30:08] [Craft Scheduler Thread - 58/INFO]: [AuthMe] myz_ALT logged in 127.0.0.1
+[01:30:14] [Async Chat Thread - #1/INFO]: myz_ALT: back
+[01:30:55] [Server thread/INFO]: myz_ALT has made the advancement [Sweet dreams]
+[01:30:58] [Async Chat Thread - #1/INFO]: myz_ALT: mm
+[01:30:59] [Server thread/INFO]: ChinmayM_3600 issued server command: /gamemode c
+[01:31:15] [Server thread/INFO]: ChinmayM_3600 issued server command: /gamemode spectator
+[01:31:18] [Server thread/INFO]: myz_ALT has made the advancement [Suit Up]
+[01:31:24] [Server thread/INFO]: ChinmayM_3600 issued server command: /gamemode c
+[01:32:32] [User Authenticator #5/INFO]: UUID of player fdsak is ca43f31b-7d62-34c7-b3f8-26c9a3858600
+[01:32:33] [Server thread/INFO]: fdsak[/127.0.0.1:54254] logged in with entity id 4261 at ([world]585.5, 86.0, 2890.5)
+[01:32:33] [Server thread/WARN]: [Essentials] Unknown item name: crackshot_weapon:ak-47.
+[01:32:33] [Server thread/WARN]: [EssentialsSpawn] That kit is improperly defined. Contact an administrator.
+[01:32:39] [Async Chat Thread - #2/INFO]: myz_ALT: >:(
+[01:32:42] [Server thread/INFO]: ChinmayM_3600 issued server command: /spawn
+[01:32:43] [Server thread/INFO]: [AuthMe] fdsak registered 127.0.0.1
+[01:32:43] [Craft Scheduler Thread - 70/INFO]: [AuthMe] fdsak logged in 127.0.0.1
+[01:32:47] [Server thread/INFO]: ChinmayM_3600 issued server command: /vanish
+[01:32:53] [Async Chat Thread - #2/INFO]: [Owner] ChinmayM_3600: hello
+[01:33:04] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc test
+[01:33:05] [Server thread/INFO]: fdsak issued server command: /npc
+[01:33:06] [Server thread/INFO]: fdsak issued server command: /?
+[01:33:08] [Server thread/INFO]: fdsak issued server command: /? 2
+[01:33:09] [Server thread/INFO]: fdsak issued server command: /? 3
+[01:33:10] [Server thread/INFO]: fdsak issued server command: /? 4
+[01:33:11] [Server thread/INFO]: fdsak issued server command: /? !
+[01:33:15] [Server thread/INFO]: fdsak issued server command: /znpcs
+[01:33:17] [Server thread/INFO]: fdsak issued server command: /znpc
+[01:33:19] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc test
+[01:33:19] [Server thread/INFO]: fdsak issued server command: /pl
+[01:33:20] [Server thread/INFO]: fdsak issued server command: /
+[01:33:20] [Async Chat Thread - #2/INFO]: [Owner] ChinmayM_3600: welcome to the sever
+[01:33:24] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc test
+[01:33:31] [Server thread/INFO]: fdsak issued server command: /rtp
+[01:33:33] [Server thread/INFO]: fdsak issued server command: /tpr
+[01:33:33] [Server thread/INFO]: [Essentials] fdsak was denied access to command.
+[01:33:36] [Server thread/INFO]: ChinmayM_3600 issued server command: /shot give
+[01:33:40] [Server thread/INFO]: ChinmayM_3600 issued server command: /shot
+[01:33:47] [Server thread/INFO]: fdsak issued server command: /rg
+[01:33:50] [Server thread/INFO]: fdsak issued server command: //calc
+[01:33:52] [Server thread/INFO]: fdsak lost connection: Disconnected
+[01:33:52] [Server thread/INFO]: fdsak left the game
+[01:33:58] [Server thread/INFO]: ChinmayM_3600 issued server command: /shot give fdsak ak-47
+[01:34:07] [Server thread/INFO]: ChinmayM_3600 issued server command: /vanish
+[01:34:13] [Server thread/INFO]: ChinmayM_3600 issued server command: /tp myz_ALT
+[01:34:22] [Server thread/INFO]: ChinmayM_3600 issued server command: /tp myz_ALT
+[01:34:51] [Async Chat Thread - #3/INFO]: myz_ALT: yo ass aint slick
+[01:35:08] [User Authenticator #6/INFO]: UUID of player Dan1e1 is c1eb77c9-f38e-3894-ab55-3a13c90c9bb2
+[01:35:09] [Server thread/INFO]: Dan1e1[/127.0.0.1:38708] logged in with entity id 5023 at ([world_nether]495.9518388395973, 67.0, 464.8843956787845)
+[01:35:16] [Craft Scheduler Thread - 76/INFO]: [AuthMe] Dan1e1 logged in 127.0.0.1
+[01:35:21] [Server thread/INFO]: myz_ALT has made the advancement [Monster Hunter]
+[01:36:19] [Async Chat Thread - #4/INFO]: myz_ALT: hi dan
+[01:36:21] [Async Chat Thread - #4/INFO]: [VIP] Dan1e1: hi
+[01:36:32] [Server thread/INFO]: ChinmayM_3600 issued server command: /spawn
+[01:36:38] [Async Chat Thread - #4/INFO]: myz_ALT: when 1.12 src comes out you gonna update your client
+[01:36:41] [Server thread/INFO]: ChinmayM_3600 issued server command: /vanish
+[01:36:45] [Async Chat Thread - #4/INFO]: [VIP] Dan1e1: 1.12 is already out
+[01:36:48] [Async Chat Thread - #4/INFO]: [VIP] Dan1e1: im playing on it rn
+[01:36:50] [Async Chat Thread - #4/INFO]: myz_ALT: src
+[01:36:57] [Async Chat Thread - #4/INFO]: [Owner] ChinmayM_3600: hi dan1e1
+[01:36:58] [Async Chat Thread - #4/INFO]: myz_ALT: the source code dummy
+[01:37:00] [Async Chat Thread - #4/INFO]: [VIP] Dan1e1: hi
+[01:37:09] [Server thread/INFO]: ChinmayM_3600 issued server command: /vanish
+[01:37:11] [Async Chat Thread - #4/INFO]: [VIP] Dan1e1: the source code?
+[01:37:14] [Async Chat Thread - #4/INFO]: myz_ALT: yes
+[01:37:20] [Server thread/INFO]: ChinmayM_3600 issued server command: /msg Dan1e1 im trolling that guy
+[01:37:25] [Async Chat Thread - #4/INFO]: [VIP] Dan1e1: oh so you can modify it
+[01:37:27] [Server thread/INFO]: Dan1e1 issued server command: /r ohhh
+[01:37:27] [Server thread/INFO]: [Essentials] Dan1e1 was denied access to command.
+[01:37:28] [Async Chat Thread - #4/INFO]: myz_ALT: ya
+[01:37:32] [Async Chat Thread - #4/INFO]: myz_ALT: and make clients
+[01:37:39] [Async Chat Thread - #4/INFO]: [VIP] Dan1e1: ah
+[01:37:41] [Server thread/INFO]: ChinmayM_3600 issued server command: /msg Dan1e1 im trolling that guy with vanish
+[01:37:45] [Server thread/INFO]: ChinmayM_3600 issued server command: /tp myz_ALT
+[01:37:48] [Server thread/INFO]: Dan1e1 issued server command: /r lol
+[01:37:48] [Server thread/INFO]: [Essentials] Dan1e1 was denied access to command.
+[01:37:59] [Server thread/INFO]: myz_ALT has made the advancement [Isn't It Iron Pick]
+[01:38:18] [Server thread/INFO]: Dan1e1 issued server command: /spawn
+[01:38:18] [Server thread/INFO]: [Essentials] Dan1e1 was denied access to command.
+[01:38:23] [Async Chat Thread - #4/INFO]: myz_ALT: aight
+[01:38:26] [Async Chat Thread - #4/INFO]: myz_ALT: this isnt funny
+[01:38:32] [Async Chat Thread - #4/INFO]: [VIP] Dan1e1: what
+[01:38:37] [Server thread/INFO]: myz_ALT has made the advancement [Diamonds!]
+[01:38:56] [Async Chat Thread - #4/INFO]: myz_ALT: chin can you not
+[01:39:47] [Server thread/INFO]: ChinmayM_3600 issued server command: /tp myz_ALT
+[01:39:49] [Async Chat Thread - #4/INFO]: myz_ALT: first my ore is dissapearing now my crafting table and furnace and now second hes making diamond penises
+[01:40:00] [Async Chat Thread - #4/INFO]: [VIP] Dan1e1: oh
+[01:40:22] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[01:40:27] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc im not on the server this is the console
+[01:40:39] [Server thread/INFO]: myz_ALT has made the advancement [Not Today, Thank You]
+[01:40:40] [Async Chat Thread - #4/INFO]: [VIP] Dan1e1: is /spawn coming
+[01:40:50] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc its alr there
+[01:40:51] [Async Chat Thread - #4/INFO]: myz_ALT: and /rtp
+[01:40:56] [Async Chat Thread - #4/INFO]: [VIP] Dan1e1: i dont have access
+[01:41:07] [Async Chat Thread - #4/INFO]: [Owner] ChinmayM_3600: will fix later
+[01:41:35] [Server thread/INFO]: myz_ALT issued server command: /rtp
+[01:41:36] [Server thread/INFO]: ChinmayM_3600 issued server command: /tp myz_ALT
+[01:41:52] [Async Chat Thread - #4/INFO]: [VIP] Dan1e1: k
+[01:42:49] [Async Chat Thread - #4/INFO]: myz_ALT: bruh
+[01:43:19] [Server thread/INFO]: Dan1e1 issued server command: /ah
+[01:43:24] [Server thread/INFO]: ChinmayM_3600 issued server command: /tp myz_ALT
+[01:44:44] [Server thread/INFO]: myz_ALT has made the advancement [Ice Bucket Challenge]
+[01:45:04] [Async Chat Thread - #5/INFO]: [VIP] Dan1e1: omg so many blazzes
+[01:45:47] [Async Chat Thread - #5/INFO]: myz_ALT: istg mechanical keyboards are so sensitive
+[01:46:11] [Server thread/INFO]: ChinmayM_3600 issued server command: /nuke myz_ALT
+[01:46:25] [Async Chat Thread - #5/INFO]: myz_ALT: bro
+[01:46:42] [Server thread/INFO]: myz_ALT issued server command: //evaluate
+[01:46:48] [Server thread/INFO]: ChinmayM_3600 issued server command: /nuke myz_ALT
+[01:46:49] [Server thread/INFO]: ChinmayM_3600 issued server command: /nuke myz_ALT
+[01:46:52] [Server thread/INFO]: myz_ALT blew up
+[01:46:59] [Async Chat Thread - #5/INFO]: myz_ALT: NIGGA
+[01:47:08] [Server thread/INFO]: myz_ALT issued server command: /back
+[01:47:11] [Server thread/INFO]: Dan1e1 has made the advancement [Not Today, Thank You]
+[01:47:23] [Async Chat Thread - #5/INFO]: myz_ALT: chin this shit isnt fucking funbny
+[01:47:30] [Server thread/INFO]: Dan1e1 lost connection: Disconnected
+[01:47:30] [Server thread/INFO]: Dan1e1 left the game
+[01:47:44] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc BUDDY IM NOT ON
+[01:47:47] [User Authenticator #7/INFO]: UUID of player Dan1e1 is c1eb77c9-f38e-3894-ab55-3a13c90c9bb2
+[01:47:47] [Server thread/INFO]: Dan1e1[/127.0.0.1:50160] logged in with entity id 10918 at ([world_nether]438.30000001192093, 66.0, 447.47851039266783)
+[01:47:50] [Craft Scheduler Thread - 84/INFO]: [AuthMe] Dan1e1 logged in 127.0.0.1
+[01:47:52] [Async Chat Thread - #5/INFO]: myz_ALT: YOUR IN VANISH
+[01:48:00] [Async Chat Thread - #5/INFO]: myz_ALT: IK GAME MECHANICS
+[01:48:00] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc IM IN CONSOLE
+[01:48:22] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg myz_ALT IM IN THE FUCKING CONSOLE
+[01:48:22] [Server thread/INFO]: [me -> myz_ALT] IM IN THE FUCKING CONSOLE
+[01:48:25] [Async Chat Thread - #5/INFO]: myz_ALT: THEN WHO THE FUCK ELSE COULD HAVE DONE THAT
+[01:48:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg myz_ALT IDK ONE OF THE OTHER ADMINS
+[01:48:45] [Server thread/INFO]: [me -> myz_ALT] IDK ONE OF THE OTHER ADMINS
+[01:48:55] [Async Chat Thread - #5/INFO]: myz_ALT: aight thats it im bombing the server
+[01:49:08] [Async Chat Thread - #5/INFO]: myz_ALT: im dming jakob to bot spam
+[01:49:27] [Async Chat Thread - #5/INFO]: myz_ALT: done
+[01:49:32] [Async Chat Thread - #5/INFO]: myz_ALT: he says tmrw
+[01:49:43] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc ???
+[01:49:46] [Server thread/INFO]: myz_ALT lost connection: Disconnected
+[01:49:46] [Server thread/INFO]: myz_ALT left the game
+[01:49:58] [Server thread/INFO]: ChinmayM_3600 issued server command: /vanish
+[01:50:08] [Async Chat Thread - #5/INFO]: [Owner] ChinmayM_3600: LOLLLL
+[01:50:15] [User Authenticator #8/INFO]: UUID of player myz_ALT is 041b1804-8a6d-36f1-b0f7-df70924e6591
+[01:50:15] [Server thread/INFO]: myz_ALT[/127.0.0.1:36018] logged in with entity id 11742 at ([world]607.3728582311608, 69.0, 2990.8474970603706)
+[01:50:17] [Server thread/INFO]: ChinmayM_3600 issued server command: /vanish
+[01:50:20] [Craft Scheduler Thread - 86/INFO]: [AuthMe] myz_ALT logged in 127.0.0.1
+[01:50:28] [Async Chat Thread - #5/INFO]: myz_ALT: done
+[01:50:41] [Server thread/INFO]: myz_ALT was slain by Spider
+[01:51:27] [Async Chat Thread - #5/INFO]: [VIP] Dan1e1: these blazes hurt
+[01:51:29] [Server thread/INFO]: Dan1e1 issued server command: /ah
+[01:51:38] [Async Chat Thread - #5/INFO]: myz_ALT: kit
+[01:51:40] [Server thread/INFO]: myz_ALT issued server command: /kit
+[01:51:40] [Server thread/INFO]: [Essentials] myz_ALT was denied access to command.
+[01:51:46] [Server thread/INFO]: myz_ALT issued server command: /kitpreview
+[01:51:46] [Server thread/INFO]: [Essentials] myz_ALT was denied access to command.
+[01:51:56] [Server thread/INFO]: myz_ALT issued server command: /nuke
+[01:51:56] [Server thread/INFO]: [Essentials] myz_ALT was denied access to command.
+[01:52:06] [Server thread/INFO]: ChinmayM_3600 issued server command: /nuke myz_ALT
+[01:52:17] [Async Chat Thread - #5/INFO]: myz_ALT: dan istg
+[01:52:21] [Server thread/INFO]: ChinmayM_3600 issued server command: /tp myz_ALT
+[01:52:26] [Async Chat Thread - #5/INFO]: [VIP] Dan1e1: yeah?
+[01:52:39] [Async Chat Thread - #5/INFO]: myz_ALT: you doing that?
+[01:52:50] [Async Chat Thread - #5/INFO]: [VIP] Dan1e1: doing what
+[01:53:02] [Async Chat Thread - #5/INFO]: myz_ALT: that may death rain apon them shit
+[01:53:12] [Server thread/INFO]: ChinmayM_3600 issued server command: /nuke myz_ALT
+[01:53:13] [Async Chat Thread - #5/INFO]: [VIP] Dan1e1: i dont have perms for that
+[01:53:33] [Async Chat Thread - #5/INFO]: myz_ALT: bro i died from thayt
+[01:53:47] [Server thread/INFO]: ChinmayM_3600 issued server command: /invsee myz_ALT
+[01:53:56] [Server thread/INFO]: ChinmayM_3600 has made the advancement [Diamonds!]
+[01:54:07] [Async Chat Thread - #5/INFO]: [Owner] ChinmayM_3600: www
+[01:54:11] [Async Chat Thread - #5/INFO]: myz_ALT: YOU ASRE IN FANITH
+[01:54:14] [Async Chat Thread - #5/INFO]: myz_ALT: VANISH
+[01:54:16] [Async Chat Thread - #5/INFO]: [Owner] ChinmayM_3600: ???
+[01:54:27] [Async Chat Thread - #5/INFO]: [Owner] ChinmayM_3600: wdym
+[01:54:27] [Server thread/INFO]: Dan1e1 issued server command: /homes
+[01:54:27] [Server thread/INFO]: [Essentials] Dan1e1 was denied access to command.
+[01:54:33] [Async Chat Thread - #5/INFO]: [VIP] Dan1e1: will there be homes?
+[01:54:33] [Async Chat Thread - #5/INFO]: myz_ALT: VANISH
+[01:54:38] [Async Chat Thread - #5/INFO]: [Owner] ChinmayM_3600: If I was this wont show
+[01:54:39] [Async Chat Thread - #5/INFO]: myz_ALT: ./VANISH
+[01:54:43] [Server thread/INFO]: ChinmayM_3600 issued server command: /home set
+[01:54:53] [Async Chat Thread - #5/INFO]: [Owner] ChinmayM_3600: idk that
+[01:55:12] [Server thread/INFO]: ChinmayM_3600 lost connection: Disconnected
+[01:55:12] [Server thread/INFO]: ChinmayM_3600 left the game
+[01:55:29] [Server thread/INFO]: myz_ALT issued server command: /spawn
+[01:55:29] [Server thread/INFO]: [Essentials] myz_ALT was denied access to command.
+[01:56:06] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc test
+[01:56:16] [luckperms-command-executor/INFO]: [LP] Set essentials.spawn to true for default in context global.
+[01:56:18] [Server thread/INFO]: myz_ALT issued server command: /ec
+[01:56:18] [Server thread/INFO]: [Essentials] myz_ALT was denied access to command.
+[01:56:27] [Async Chat Thread - #6/INFO]: [VIP] Dan1e1: ok im out of food in the nether
+[01:56:28] [Server thread/INFO]: Dan1e1 issued server command: /tpa
+[01:56:31] [Async Chat Thread - #6/INFO]: [VIP] Dan1e1: great
+[01:56:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give 
+[01:56:48] [Server thread/INFO]: Command Help: /give
+[01:56:48] [Server thread/INFO]: Description: Give a player an item.
+[01:56:48] [Server thread/INFO]: Usage(s);
+[01:56:48] [Server thread/INFO]: /give <player> <item> [amount] - Gives the target player 64 (or the specified amount) of the specified item
+[01:56:48] [Server thread/INFO]: /give <player> <item> <amount> <meta> - Gives the target player the specified amount of the specified item with the given metadata
+[01:56:54] [Server thread/INFO]: myz_ALT lost connection: Disconnected
+[01:56:54] [Server thread/INFO]: myz_ALT left the game
+[01:56:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give Dan1e1 steak 64
+[01:56:57] [Server thread/INFO]: Giving 64 of cooked beef to [VIP] Dan1e1.
+[01:57:08] [Async Chat Thread - #6/INFO]: [VIP] Dan1e1: YOOO
+[01:57:25] [Async Chat Thread - #6/INFO]: [VIP] Dan1e1: we just need homes now
+[01:58:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /nuke Dan1e1
+[01:59:46] [Server thread/INFO]: Dan1e1 issued server command: /ah
+[02:00:05] [User Authenticator #9/INFO]: UUID of player ChinmayM_3600 is d688be88-8641-3dbc-b5d9-b7c5d3992d11
+[02:00:05] [Server thread/INFO]: ChinmayM_3600[/127.0.0.1:50746] logged in with entity id 18985 at ([world]602.1342230755579, 82.86084874518161, 2947.7732859556086)
+[02:00:12] [Craft Scheduler Thread - 99/INFO]: [AuthMe] ChinmayM_3600 logged in 127.0.0.1
+[02:00:18] [Server thread/INFO]: ChinmayM_3600 issued server command: /tp Dan1e1
+[02:00:18] [Server thread/INFO]: ChinmayM_3600 has made the advancement [We Need to Go Deeper]
+[02:00:23] [Async Chat Thread - #7/INFO]: [VIP] Dan1e1: oh hey
+[02:00:50] [Server thread/INFO]: ChinmayM_3600 issued server command: /shot get ak-47
+[02:00:56] [Server thread/INFO]: ChinmayM_3600 issued server command: /shot get bazooka
+[02:01:00] [Server thread/INFO]: ChinmayM_3600 issued server command: /shot get hunting
+[02:01:05] [Server thread/INFO]: ChinmayM_3600 issued server command: /gamemode s
+[02:01:09] [Server thread/INFO]: ChinmayM_3600 issued server command: /gamemode c
+[02:01:26] [Server thread/INFO]: ChinmayM_3600 issued server command: /gamemode s
+[02:01:30] [Server thread/INFO]: ChinmayM_3600 issued server command: /tp Dan1e1
+[02:01:48] [Async Chat Thread - #8/INFO]: [VIP] Dan1e1: i should probably use a boat
+[02:01:55] [Async Chat Thread - #8/INFO]: [VIP] Dan1e1: since thats a thing now
+[02:02:13] [Server thread/INFO]: ChinmayM_3600 issued server command: /gtg
+[02:02:16] [Async Chat Thread - #8/INFO]: [Owner] ChinmayM_3600: gtg
+[02:02:19] [Async Chat Thread - #8/INFO]: [VIP] Dan1e1: cya
+[02:02:22] [Server thread/INFO]: ChinmayM_3600 lost connection: Disconnected
+[02:02:22] [Server thread/INFO]: ChinmayM_3600 left the game
+[02:09:35] [Server thread/INFO]: Dan1e1 lost connection: Disconnected
+[02:09:35] [Server thread/INFO]: Dan1e1 left the game
+[02:09:44] [User Authenticator #10/INFO]: UUID of player Dan1e1 is c1eb77c9-f38e-3894-ab55-3a13c90c9bb2
+[02:09:44] [Server thread/INFO]: Dan1e1[/127.0.0.1:46386] logged in with entity id 19762 at ([world_nether]158.86399028786218, 58.0, 176.70091917506895)
+[02:09:50] [Craft Scheduler Thread - 109/INFO]: [AuthMe] Dan1e1 logged in 127.0.0.1
+[02:21:35] [Server thread/INFO]: Dan1e1 lost connection: Disconnected
+[02:21:35] [Server thread/INFO]: Dan1e1 left the game
+[02:28:19] [User Authenticator #11/INFO]: UUID of player Dan1e1 is c1eb77c9-f38e-3894-ab55-3a13c90c9bb2
+[02:28:20] [Server thread/INFO]: Dan1e1[/127.0.0.1:60492] logged in with entity id 20412 at ([world_nether]-63.1316642220905, 99.0, -35.09606487642607)
+[02:28:24] [Craft Scheduler Thread - 122/INFO]: [AuthMe] Dan1e1 logged in 127.0.0.1
