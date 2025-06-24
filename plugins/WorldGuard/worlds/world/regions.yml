@@ -14,7 +14,9 @@ regions:
         min: {x: 561.0, y: 68.0, z: 2875.0}
         max: {x: 598.0, y: 85.0, z: 2922.0}
         members: {}
-        flags: {pvp: deny}
+        flags: {creeper-explosion: deny, lava-fire: deny, build: deny, use: deny,
+            block-break: deny, enderman-grief: deny, chest-access: deny, tnt: deny,
+            pvp: deny, block-place: deny, fire-spread: deny}
         owners: {}
         type: cuboid
         priority: 0

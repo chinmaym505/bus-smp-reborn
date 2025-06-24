@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750774334807
+  login: 1750774207517
+money: '10000'
+last-account-name: Toastman175
+lastlocation:
+  world: 76641ab6-71f4-4dbb-8772-2ba419aa0723
+  world-name: world
+  x: 570.5
+  y: 86.0
+  z: 2892.5
+  yaw: 3.8726725578308105
+  pitch: 0.0
+logoutlocation:
+  world: 76641ab6-71f4-4dbb-8772-2ba419aa0723
+  world-name: world
+  x: 548.0516659162963
+  y: 67.0
+  z: 2943.8545574999566
+  yaw: -15.966278076171875
+  pitch: -5.700008392333984

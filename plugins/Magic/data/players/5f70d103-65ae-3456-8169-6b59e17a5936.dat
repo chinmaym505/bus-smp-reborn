@@ -1,0 +1,33 @@
+id: 5f70d103-65ae-3456-8169-6b59e17a5936
+name: Toastman175
+created: 1750774207048
+updated: 1750774334911
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  76641ab6-71f4-4dbb-8772-2ba419aa0723: []
+spells: {}
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data: {}
+properties: {}
+classes:
+  caster: {}
+  mage:
+    effect_color: 7add8ce3e712,93fc651104d2,cde5de9a666e
+    mana_timestamp: 1750774334801
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 20.0

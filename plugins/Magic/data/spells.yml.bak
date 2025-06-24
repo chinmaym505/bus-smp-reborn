@@ -263,7 +263,7 @@ bomb:
   cast_count: 0
   last_cast: 0
 fling:
-  cast_count: 76021760
+  cast_count: 1216348160
   last_cast: 0
 secure:
   cast_count: 0
@@ -308,7 +308,7 @@ fillwand:
   cast_count: 0
   last_cast: 0
 missile:
-  cast_count: 144965700
+  cast_count: 2319451200
   last_cast: 0
 trinketshop:
   cast_count: 0
@@ -338,7 +338,7 @@ wandshop:
   cast_count: 0
   last_cast: 0
 levitate:
-  cast_count: 22089728
+  cast_count: 353435648
   last_cast: 0
 quests:
   cast_count: 0
@@ -383,7 +383,7 @@ ledgershop:
   cast_count: 0
   last_cast: 0
 testdummy:
-  cast_count: 53149696
+  cast_count: 850395136
   last_cast: 0
 rainbowhelmet:
   cast_count: 0
@@ -416,7 +416,7 @@ emp:
   cast_count: 0
   last_cast: 0
 blink:
-  cast_count: 30015488
+  cast_count: 480247808
   last_cast: 0
 lizardskin:
   cast_count: 0
@@ -614,7 +614,7 @@ wanddebuffshop:
   cast_count: 0
   last_cast: 0
 push:
-  cast_count: 4718592
+  cast_count: 75497472
   last_cast: 0
 dragonwater:
   cast_count: 0
@@ -770,7 +770,7 @@ counterspell:
   cast_count: 0
   last_cast: 0
 superkill:
-  cast_count: 65601592
+  cast_count: 1049625472
   last_cast: 0
 torch:
   cast_count: 0
@@ -902,7 +902,7 @@ tag:
   cast_count: 0
   last_cast: 0
 day:
-  cast_count: 22380544
+  cast_count: 358088704
   last_cast: 0
 note19:
   cast_count: 0

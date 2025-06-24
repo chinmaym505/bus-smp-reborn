@@ -1,7 +1,7 @@
 id: fa937539-feac-3fb0-ab76-4cf8a4ef5886
 name: Mintyy
 created: 1750609639844
-updated: 1750713076646
+updated: 1750786456620
 last_cast: 1750709314051
 cooldown_expiration: 0
 last_death_location: 579.4530800524291,69.0,2904.404616950826,world,-173.94147,26.716793
@@ -72,7 +72,7 @@ classes:
   caster: {}
   mage:
     effect_color: 482d1e061355,7742b2b28d32,2ecb8b3e93ee
-    mana_timestamp: 1750713076592
+    mana_timestamp: 1750786456582
     mana: 50.0
 transient_modifiers: {}
 active_class: mage

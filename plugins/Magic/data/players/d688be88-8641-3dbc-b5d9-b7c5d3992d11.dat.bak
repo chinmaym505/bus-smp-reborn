@@ -1,7 +1,7 @@
 id: d688be88-8641-3dbc-b5d9-b7c5d3992d11
 name: ChinmayM_3600
 created: 1750604782895
-updated: 1750730112618
+updated: 1750786456599
 last_cast: 1750718561194
 cooldown_expiration: 0
 last_death_location: 579.9881256817251,78.9931352581302,2916.3542630185875,world,-0.06625269,-1.9500083
@@ -192,7 +192,7 @@ classes:
   caster: {}
   mage:
     effect_color: 89b23b5eb35b,c3c2d9abcc41,1757ec26710a
-    mana_timestamp: 1750730112566
+    mana_timestamp: 1750786456581
     mana: 50.0
 transient_modifiers: {}
 active_class: mage

@@ -356,7 +356,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_chicken": "2025-06-23 23:13:02 +0000"
+      "cooked_chicken": "2025-06-23 23:13:02 +0000",
+      "enchanted_golden_apple": "2025-06-24 14:57:28 +0000"
     },
     "done": false
   },
