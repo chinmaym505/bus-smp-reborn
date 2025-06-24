@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750633611787
+  login: 1750633476497
+money: '10000'
+last-account-name: K00L
+logoutlocation:
+  world: b1df6e2d-8270-45bd-9d5b-761f6ba25dbb
+  world-name: world
+  x: -176.33659216966393
+  y: 77.35269235386714
+  z: 1224.5084199981561
+  yaw: -18.910940170288086
+  pitch: 82.3499984741211
+mail:
+- legacy: false
+  read: false
+  message: this is mail, use /mail to learn more
+  sender-name: ChinmayM_3600
+  sender-uuid: d688be88-8641-3dbc-b5d9-b7c5d3992d11
+  timestamp: 1750601013329
+  expire: 0

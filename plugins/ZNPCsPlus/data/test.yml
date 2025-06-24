@@ -1,0 +1,18 @@
+id: test
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 4182aaf5-9e88-4cc7-a59c-30363ffade02
+world: world
+location:
+  x: 578.005206939266
+  y: 69.0
+  z: 2899.562784585379
+  yaw: 270.44714
+  pitch: -0.0
+type: zombie
+hologram:
+  lines:
+  - test
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;YmMgdGVzdA==;4000;RIGHT_CLICK;2

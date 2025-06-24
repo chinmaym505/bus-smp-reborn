@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750728832661
+  login: 1750728753355
+money: '10000'
+last-account-name: fdsak
+lastlocation:
+  world: 76641ab6-71f4-4dbb-8772-2ba419aa0723
+  world-name: world
+  x: 585.5
+  y: 86.0
+  z: 2890.5
+  yaw: 0.6136852502822876
+  pitch: 0.0
+logoutlocation:
+  world: 76641ab6-71f4-4dbb-8772-2ba419aa0723
+  world-name: world
+  x: 608.2309897824261
+  y: 70.0
+  z: 2912.0513205912976
+  yaw: 186.6837615966797
+  pitch: 19.598520278930664

@@ -1,0 +1,79 @@
+id: fa937539-feac-3fb0-ab76-4cf8a4ef5886
+name: Mintyy
+created: 1750609639844
+updated: 1750713414352
+last_cast: 1750709314051
+cooldown_expiration: 0
+last_death_location: 579.4530800524291,69.0,2904.404616950826,world,-173.94147,26.716793
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  76641ab6-71f4-4dbb-8772-2ba419aa0723: []
+  b1df6e2d-8270-45bd-9d5b-761f6ba25dbb: []
+spells:
+  missile:
+    cast_count: 27
+    last_cast: 1750709314052
+    last_earn: 1750709314050
+    cooldown_expiration: 1750709315052
+    charges: 0.0
+wands:
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Wand
+        lore:
+        - §7Beginner §rMagic Wand
+        - §3§oBound to [Helper] Mintyy
+        - §bFire a bolt of pure magic
+        - '§eCooldown: §6One second'
+        - '§7§9Range: §624 §9meters'
+        - §7Lasts for 10 seconds
+        - §eConsumes 15 §3MP
+        - §2Earns up to §620 §bSP
+        - '§eMana: 50'
+        - '§eMana Regeneration: 5/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/z2QwU7CQBRFX6ViqRoT3LhkATtqWtrSYmIiCSaaiC4IK2PIdPpGJrQztUwlfIDf5MIf8GP8CIcafMubk/vuvTaAAeYKsTBsMDdEpBYcyo3AEs6e7zArsHzpTLlQ260FlsK8yIjCPXmCjCFVCyozWUIvCEhABsGIRiHpM38QR64XUd/1+p7L/CELh3Hqapvaf8FT6DIy8qPQHzkMCXV8lrgOSaKhE1AWkwBZGMdDC0xOpQB7I2W6WEq88hpw9I7lmmsVoKkbHFciLWVRkCRDowXtsVIlTyqFU5lyxjVra9IwwZrP7ydTuVafF9A7+JqUJrR20gOStfr4ptc/FrOb0BznshLqpgv16QizTCqwcsLFsq5++v/ikeQI56+oO3F6SZQidDUrENMGtJ70fkT95dy51Gz79q3iRY5CdfbxAH4B1Qtq+YkBAAA=
+    wand:
+      owner: '[Helper] Mintyy'
+      template: wand
+      effect_color: 44a4a249c75a,f3287017c301,10f36f568d0
+      owner_id: fa937539-feac-3fb0-ab76-4cf8a4ef5886
+      icon: wood_hoe:1
+      version: 6
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data:
+  sp: 240.0
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: 482d1e061355,7742b2b28d32,2ecb8b3e93ee
+    mana_timestamp: 1750713414293
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 20.0

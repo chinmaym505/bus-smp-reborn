@@ -1,0 +1,34 @@
+id: 041b1804-8a6d-36f1-b0f7-df70924e6591
+name: myz_ALT
+created: 1750727258424
+updated: 1750730214314
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: 576.1769277666032,72.0,3007.6587159069973,world,308.37766,20.317675
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  76641ab6-71f4-4dbb-8772-2ba419aa0723: []
+spells: {}
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data: {}
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: 519cc40e8627,e235bbd3c6a5,b542e365024c
+    mana_timestamp: 1750730214262
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 3.833332061767578

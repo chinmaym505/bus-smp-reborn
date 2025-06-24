@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1750707555421
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750713414295
+  login: 1750713208782
+money: '69'
+last-account-name: Mintyy
+lastlocation:
+  world: 76641ab6-71f4-4dbb-8772-2ba419aa0723
+  world-name: world
+  x: 589.5
+  y: 69.0
+  z: 2896.5
+  yaw: 5.787590026855469
+  pitch: 0.0
+logoutlocation:
+  world: 76641ab6-71f4-4dbb-8772-2ba419aa0723
+  world-name: world
+  x: 581.2368669683495
+  y: 69.0
+  z: 2911.5646016118985
+  yaw: 28.92583465576172
+  pitch: 16.271991729736328

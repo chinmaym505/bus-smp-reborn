@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1750627586807
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750627806196
+  login: 1750627664615
+money: '0'
+last-account-name: lilteccaAOTY
+lastlocation:
+  world: b1df6e2d-8270-45bd-9d5b-761f6ba25dbb
+  world-name: world
+  x: 310.1511216619132
+  y: 64.0
+  z: 338.11580928580577
+  yaw: 49.50971603393555
+  pitch: 16.949983596801758
+logoutlocation:
+  world: b1df6e2d-8270-45bd-9d5b-761f6ba25dbb
+  world-name: world
+  x: 213.40431849083365
+  y: 59.0
+  z: 249.80603425244615
+  yaw: 40.049072265625
+  pitch: 10.049999237060547

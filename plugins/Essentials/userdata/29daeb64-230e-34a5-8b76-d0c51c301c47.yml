@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750703571204
+  login: 1750703494289
+money: '10000'
+last-account-name: ChinmayM_360
+lastlocation:
+  world: 76641ab6-71f4-4dbb-8772-2ba419aa0723
+  world-name: world
+  x: 187.5
+  y: 62.0
+  z: -230.5
+  yaw: 1.7749603986740112
+  pitch: 0.0
+logoutlocation:
+  world: 76641ab6-71f4-4dbb-8772-2ba419aa0723
+  world-name: world
+  x: 396.8549198868
+  y: 38.0
+  z: 262.2002605384407
+  yaw: -176.40594482421875
+  pitch: 38.342323303222656

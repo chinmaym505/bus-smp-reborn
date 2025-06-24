@@ -1,0 +1,199 @@
+id: d688be88-8641-3dbc-b5d9-b7c5d3992d11
+name: ChinmayM_3600
+created: 1750604782895
+updated: 1750730112618
+last_cast: 1750718561194
+cooldown_expiration: 0
+last_death_location: 579.9881256817251,78.9931352581302,2916.3542630185875,world,-0.06625269,-1.9500083
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  76641ab6-71f4-4dbb-8772-2ba419aa0723: []
+  37d89a3e-efec-4aa9-b38e-3494174d4fe4: []
+  b1df6e2d-8270-45bd-9d5b-761f6ba25dbb: []
+spells:
+  levitate|3:
+    cast_count: 13
+    last_cast: 1750642192587
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  levitate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  fling|4:
+    cast_count: 61
+    last_cast: 1750623414341
+    last_earn: 1750623395537
+    cooldown_expiration: 0
+    charges: 0.0
+  debugger:
+    cast_count: 0
+    last_cast: 1750605692827
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  push|4:
+    cast_count: 2
+    last_cast: 1750616202288
+    last_earn: 1750616089744
+    cooldown_expiration: 0
+    charges: 0.0
+  missile:
+    cast_count: 8
+    last_cast: 1750609031424
+    last_earn: 1750605980488
+    cooldown_expiration: 1750609032424
+    charges: 0.0
+  testdummy:
+    cast_count: 40
+    last_cast: 1750625911703
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  superkill:
+    cast_count: 65
+    last_cast: 1750717352922
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  missile|5:
+    cast_count: 87
+    last_cast: 1750718561195
+    last_earn: 1750718554394
+    cooldown_expiration: 0
+    charges: 0.0
+  day:
+    cast_count: 16
+    last_cast: 1750625675233
+    last_earn: 1750625685233
+    cooldown_expiration: 0
+    charges: 0.0
+  recall|5:
+    cast_count: 0
+    last_cast: 1750627500921
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  blink|6:
+    cast_count: 14
+    last_cast: 1750615297994
+    last_earn: 1750615205496
+    cooldown_expiration: 0
+    charges: 0.0
+wands:
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Wand
+        lore:
+        - §7Beginner §rMagic Wand
+        - §3§oBound to [Owner] ChinmayM_3600
+        - §bFire a bolt of pure magic
+        - '§eCooldown: §6One second'
+        - '§7§9Range: §624 §9meters'
+        - §7Lasts for 10 seconds
+        - §eConsumes 15 §3MP
+        - §2Earns up to §620 §bSP
+        - '§eMana: 50'
+        - '§eMana Regeneration: 5/s'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/z1QzUrDQBCe0FjTqJeKHqWH4kEayX8TTxbtQbD2UIoHlbDZndilSTamG4sP4GuILyA+ie9kGqlzGfj45vsZHUABdYlYKDqoa5IzDTSJWZESiVtgR6xzLOHoYbrZT72rBc8z8jaJHN80NdjHJEEqIypSUcIpCWzTcZPEYh4duB6LqW36IcbJYIhIqWujb8VBbdOoRpxBn/lBEGMQGIHvWoZTnxixx0IjHlKPOWFoM8vSQOVU5KCvhWDRQuCF1YLdVyxXvEYB2nWRvSpnpSgKEqeodKA7krLkcSVxIhhPeM3Va6aigjaf31xPxEp+fP+8n6VjqUJnA90iWcnPeyKPT74e29AeZaLK5WUfmqkjzFIhQcsIzxfNaw7+Le5IhnD4jHUnTs+JlIQuZwUia0FnWmBJ5F/OjUrD7Y5fKl5kmMveNh7AL4wFgISQAQAA
+    wand:
+      template: wand
+      owner: '[Owner] ChinmayM_3600'
+      effect_color: a82034ff1d5c,45dbc2069ebf,7eecc42e61b8
+      owner_id: d688be88-8641-3dbc-b5d9-b7c5d3992d11
+      icon: wood_hoe:1
+      version: 6
+  uberwand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Überwand
+        lore:
+        - §o§aThe Ultimate Wand
+        - §3§oBound to [Owner] ChinmayM_3600
+        - Knows 10 Spells
+        - §bSpeed I
+        - §bSaturation I
+        - §bRegeneration I
+        - §6Cost Reduction X
+        - §6Cooldown Reduction X
+        - §3Invulnerability
+        - §8------------------------
+        - §b• §f§fSwing §7(§a§r §7Left-Click§r §7) §7to cast §6Magic Missile
+        - §b• §f§fInteract §7(§a§r §7Right-Click§r §7) §7to open the spell
+        - §7 inventory
+        - §b• §f§eChange controls using an §benchant table
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/0VRzW4TMRCeZTeJs6VCKqI3pB564BLUNDRsOFEVDkiEHKqeEFrZ62nWyvqntjdRXoOn4MhbcOUV+iad3Yrii7+xZ77vm5kcIIFsg+iSHLIdN5LBwO4Menj1fdXdP06uamU03y/L2fzsjAGLqF3DIwJrBfrHmue8imqLZXDYNDDSKgTVICX3XKWScCrnRSGwKCbF/N10MpOimogLuZiI99WFnC0W53I6ZZCpyhrId9bKsrb4YZ7Di560VGaLJlq/T4E1uFWxs0AnhaHHipMsAKM/iaJdr6kBgFH6ZKVLTGEcMUTZar2neEhxaB36jeqLBykMRKPMhnBC+JbwmvCzFFLJu4oshcy1oSY4Jt3RFn1QZLfnOq5tFNz/91lWtjWxd5jAQWukt85x0WAyhqPLGL0SbcSllepWEVHeyWbAbm6+fFraEH+Z14e/F6v7DMbd01fkIf48+PvnTX2+GsLwUnfsH0+hPzS468ZGYJorU/crOXyS+MY1wss10iZU9ZbHyKvNtUOUNIAV9c/jYxMdS5979PmuVU5TGyf/7AE8AMSH7FkrAgAA
+    wand:
+      owner: '[Owner] ChinmayM_3600'
+      template: uberwand
+      active_spell: missile
+      owner_id: d688be88-8641-3dbc-b5d9-b7c5d3992d11
+      icon: wood_hoe:6
+      spell_inventory:
+        levitate: 0
+        recall: 8
+        debugger: 7
+        missile: 3
+        testdummy: 6
+        superkill: 5
+        blink: 1
+        fling: 2
+        day: 4
+        push: 9
+      version: 6
+      hotbar_inventory_count: 3
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data:
+  sp: 25.0
+properties:
+  version: 6
+shown_help: true
+classes:
+  caster: {}
+  mage:
+    effect_color: 89b23b5eb35b,c3c2d9abcc41,1757ec26710a
+    mana_timestamp: 1750730112566
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 20.0

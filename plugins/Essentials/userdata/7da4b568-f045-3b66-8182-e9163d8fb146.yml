@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750564153899
+  login: 1750561161207
+money: '0'
+last-account-name: JohnnyThyBOI
+lastlocation:
+  world: b1df6e2d-8270-45bd-9d5b-761f6ba25dbb
+  world-name: world
+  x: 195.5
+  y: 66.0
+  z: 263.5
+  yaw: 6.278685569763184
+  pitch: 0.0
+logoutlocation:
+  world: b1df6e2d-8270-45bd-9d5b-761f6ba25dbb
+  world-name: world
+  x: -20.133566792204125
+  y: 76.0
+  z: 223.61869709844245
+  yaw: -6.9581298828125
+  pitch: 29.685117721557617

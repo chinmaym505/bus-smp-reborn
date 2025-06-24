@@ -1,0 +1,33 @@
+id: 29daeb64-230e-34a5-8b76-d0c51c301c47
+name: ChinmayM_360
+created: 1750703493862
+updated: 1750703571301
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: 396.8549198868,38.0,262.2002605384407,world,-176.40594,38.342323
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  76641ab6-71f4-4dbb-8772-2ba419aa0723: []
+spells: {}
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data: {}
+properties: {}
+classes:
+  caster: {}
+  mage:
+    effect_color: fdd6a0bd27e9,1fba1f09a4d6,e14f7100c94b
+    mana_timestamp: 1750703559593
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 0.0

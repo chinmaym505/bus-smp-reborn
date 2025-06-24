@@ -1,0 +1,57 @@
+bus_smp_title:
+  change-interval: 4
+  texts:
+  - '&e&lBus &6&lSMP'
+  - '&6&lBus &f&lSMP'
+  - '&f&lBus &7&lSMP'
+  - '&7&lBus &f&lSMP'
+  - '&f&lBus &6&lSMP'
+  - '&6&lBus &e&lSMP'
+server_ip_label:
+  change-interval: 4
+  texts:
+  - '&7Server:'
+  - '&7Server:'
+  - '&7Server:'
+server_ip_value:
+  change-interval: 4
+  texts:
+  - '&awss://bus-smp.loca.lt'
+  - '&fwss://bus-smp.loca.lt'
+  - '&ewss://bus-smp.loca.lt'
+discord_label:
+  change-interval: 4
+  texts:
+  - '&7Discord:'
+  - '&7Discord:'
+  - '&7Discord:'
+discord_value:
+  change-interval: 4
+  texts:
+  - '&9discord.gg/jZZczK8aMg'
+  - '&bdiscord.gg/jZZczK8aMg'
+  - '&3discord.gg/jZZczK8aMg'
+enjoy_line:
+  change-interval: 4
+  texts:
+  - '&eEnjoy your ride! 🚌'
+  - '&6Enjoy your ride! 🚌'
+  - '&fEnjoy your ride! 🚌'
+player_name:
+  change-interval: 4
+  texts:
+  - '&fUser: &b%player_name%'
+  - '&fUser: &3%player_name%'
+  - '&fUser: &9%player_name%'
+balance:
+  change-interval: 4
+  texts:
+  - '&fBalance: &6$%vault_eco_balance%'
+  - '&fBalance: &e$%vault_eco_balance%'
+  - '&fBalance: &f$%vault_eco_balance%'
+ping:
+  change-interval: 4
+  texts:
+  - '&fPing: &a%ping%ms'
+  - '&fPing: &2%ping%ms'
+  - '&fPing: &b%ping%ms'

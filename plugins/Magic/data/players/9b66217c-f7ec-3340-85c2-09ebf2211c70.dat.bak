@@ -1,0 +1,34 @@
+id: 9b66217c-f7ec-3340-85c2-09ebf2211c70
+name: lilteccaAOTY
+created: 1750621585216
+updated: 1750627645599
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  b1df6e2d-8270-45bd-9d5b-761f6ba25dbb: []
+spells: {}
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data: {}
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: beb479850a86,deb6e3e83117,25640a36b3de
+    mana_timestamp: 1750627645547
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 1.4666614532470703

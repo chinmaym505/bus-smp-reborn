@@ -1,0 +1,42 @@
+{
+	"frame1": {
+		"icon": "server-animation.png",
+		"icon_spriteX": 0,
+		"icon_spriteY": 0,
+		"online": "default",
+		"max": "default",
+		"players": "default",
+		"text0": "§d[§5Bus SMP§d] §f⛽ Fueled by Redstone. Driven by Imagination.",
+		"text1": "§7| No brakes. No rules. Just blocks."
+	},
+	"frame2": {
+		"icon": "server-animation.png",
+		"icon_spriteX": 1,
+		"icon_spriteY": 0,
+		"online": "default",
+		"max": "default",
+		"players": "default",
+		"text0": "§d[§5Bus SMP§d] §f⛽ Fueled by §cRedstone§f. Driven by Imagination.",
+		"text1": "§7| No brakes. §cNo rules§7. Just blocks."
+	},
+	"frame3": {
+		"icon": "server-animation.png",
+		"icon_spriteX": 2,
+		"icon_spriteY": 0,
+		"online": "default",
+		"max": "default",
+		"players": "default",
+		"text0": "§d[§5Bus SMP§d] §f⛽ Fueled by Redstone. §aDriven by Imagination§f.",
+		"text1": "§7| No brakes. No rules. §aJust blocks§7."
+	},
+	"frame4": {
+		"icon": "server-animation.png",
+		"icon_spriteX": 3,
+		"icon_spriteY": 0,
+		"online": "default",
+		"max": "default",
+		"players": "default",
+		"text0": "§d[§5Bus SMP§d] §e⛽ Fueled by Redstone. Driven by Imagination.",
+		"text1": "§f| No brakes. No rules. Just blocks."
+	}
+}

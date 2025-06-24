@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1750729628034
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1750730214268
+  login: 1750729815511
+money: '10000'
+last-account-name: myz_ALT
+lastlocation:
+  world: 76641ab6-71f4-4dbb-8772-2ba419aa0723
+  world-name: world
+  x: 576.5250751349322
+  y: 68.0
+  z: 2933.699999988079
+  yaw: -4.700129985809326
+  pitch: 14.80318832397461
+logoutlocation:
+  world: 76641ab6-71f4-4dbb-8772-2ba419aa0723
+  world-name: world
+  x: 588.7221418761337
+  y: 68.0
+  z: 2919.771394965514
+  yaw: 138.26812744140625
+  pitch: 16.044017791748047

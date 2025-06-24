@@ -1,0 +1,34 @@
+id: 91401964-e866-3a73-8dc2-26ef608e729b
+name: MegaManForce
+created: 1750611810497
+updated: 1750620112252
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: 9393.174619975523,64.0,8862.716368974709,world,205.48143,51.13871
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  b1df6e2d-8270-45bd-9d5b-761f6ba25dbb: []
+spells: {}
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data: {}
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: a1d2108ef210,240074c14abb,b59c936e21da
+    mana_timestamp: 1750620112242
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 2.4133434295654297

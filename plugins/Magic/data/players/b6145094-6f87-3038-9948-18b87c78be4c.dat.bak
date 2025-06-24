@@ -1,0 +1,158 @@
+id: b6145094-6f87-3038-9948-18b87c78be4c
+name: K00L
+created: 1750622143266
+updated: 1750629699148
+last_cast: 1750629640399
+cooldown_expiration: 0
+last_death_location: 205.12882218300877,64.0,251.02813358489286,world,3.3000047,14.849994
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  b1df6e2d-8270-45bd-9d5b-761f6ba25dbb: []
+spells:
+  levitate|3:
+    cast_count: 12
+    last_cast: 1750629699055
+    last_earn: 0
+    cooldown_expiration: 1750623290210
+    active: true
+    charges: 0.0
+  levitate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  fling|4:
+    cast_count: 5
+    last_cast: 1750627816597
+    last_earn: 1750627816246
+    cooldown_expiration: 0
+    charges: 0.0
+  debugger:
+    cast_count: 0
+    last_cast: 1750627286930
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  push|4:
+    cast_count: 5
+    last_cast: 1750627642437
+    last_earn: 1750627607730
+    cooldown_expiration: 0
+    charges: 0.0
+  testdummy:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  superkill:
+    cast_count: 12
+    last_cast: 1750629637199
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  missile|5:
+    cast_count: 9
+    last_cast: 1750628242124
+    last_earn: 1750628185999
+    cooldown_expiration: 0
+    charges: 0.0
+  day:
+    cast_count: 2
+    last_cast: 1750628263009
+    last_earn: 1750628273037
+    cooldown_expiration: 0
+    charges: 0.0
+  recall|5:
+    cast_count: 0
+    last_cast: 1750627688435
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  blink|6:
+    cast_count: 9
+    last_cast: 1750627757894
+    last_earn: 1750627757893
+    cooldown_expiration: 0
+    charges: 0.0
+wands:
+  uberwand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Überwand
+        lore:
+        - §o§aThe Ultimate Wand
+        - §3§oBound to [Helper] K00L
+        - Knows 10 Spells
+        - §bSpeed I
+        - §bSaturation I
+        - §bRegeneration I
+        - §6Cost Reduction X
+        - §6Cooldown Reduction X
+        - §3Invulnerability
+        - §8------------------------
+        - §b• §f§fSwing §7(§a§r §7Left-Click§r §7) §7to cast §6Magic Missile
+        - §b• §f§fInteract §7(§a§r §7Right-Click§r §7) §7to open the spell
+        - §7 inventory
+        - §b• §f§eChange controls using an §benchant table
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/01Ry27TQBS9xk7iGCqkInXdRcUCNchp0sRm1UiAQDSwqLoBoWhmfO2MMva443Gi/gzsEeIDuuUL+Az+gjuOKMzq3Oc5504E4EGwQay9CIIdq7IQenpXoYGDT29Q1Wg+H7+L48sQQotlrZhFCFuOZt/7iAkrt7hqalQKBqVsGqmQ8pjnKOxKaKUNPD0b52nMJml8Pjs7pQIXgnGWJPPT/yvE0VGvZAYnfDaensfpdDTLk/loEk+SUZpOk9E44clczBOOUxFCIIWuINppna3WGl/MfAhqViDQ86G/1pYz44IIHncaV7LaYmW1ufUhVLiV1jnadxsUjFwAhFTLkLdFgW544N87c40+DC02NmvL8pbiPsVNS4fayG6450OPK1ltCHuEc8IF4Qc++BlzE4ET2TZrgkPiHWzRNJJsdLuO9pr/6aQbtpXtFHrwsK0yo+uacYXeEA4X1hrJW4tLnclc0qLI0QYQXl+/fbnUjf3y7cfv71+XHwMYutQlssbe/bxLX/9aPOtDf1G67Rcn0D066JXSFsKSyWrd/fDBPcV7ViI8KZB+SIrnzFomNlc1YkYH+ED+md2bcFu63sNXN62sS7Jx/FcewB8c3EwwcgIAAA==
+    wand:
+      owner: '[Helper] K00L'
+      template: uberwand
+      active_spell: missile
+      effect_color: 21f90a390562,fecbccaba887,21f90a390562
+      owner_id: b6145094-6f87-3038-9948-18b87c78be4c
+      icon: wood_hoe:6
+      page: 0
+      hotbar: 0
+      spell_inventory:
+        levitate: 0
+        recall: 8
+        debugger: 7
+        missile: 3
+        testdummy: 6
+        superkill: 5
+        blink: 1
+        fling: 2
+        day: 4
+        push: 9
+      version: 6
+      hotbar_inventory_count: 3
+open_wand: true
+gave_welcome_wand: false
+resource_pack_preference: default
+data:
+  sp: 0.0
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: 5807e74b57a9,e0d1d7d1ed88,2f08f47de419
+    mana_timestamp: 1750629699048
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 20.0

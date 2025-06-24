@@ -1,0 +1,36 @@
+id: c1eb77c9-f38e-3894-ab55-3a13c90c9bb2
+name: Dan1e1
+created: 1750608411643
+updated: 1750732353234
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: 655.2787238806084,70.30421341792974,2893.300000011921,world,-112.116394,69.45
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  76641ab6-71f4-4dbb-8772-2ba419aa0723: []
+  37d89a3e-efec-4aa9-b38e-3494174d4fe4: []
+  b1df6e2d-8270-45bd-9d5b-761f6ba25dbb: []
+spells: {}
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data: {}
+properties:
+  version: 6
+classes:
+  caster: {}
+  mage:
+    effect_color: d1ff920109cb,f2b53d5eb3a3,d5f00eace40d
+    mana_timestamp: 1750732353233
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 20.0
